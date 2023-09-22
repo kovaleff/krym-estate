@@ -1,0 +1,163 @@
+/* Show it is fixed to the top */
+a, a:visited, a:hover{
+    text-decoration: none!important;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.container.home .row{
+    align-items:center;
+}
+.developer-logo{
+    width:200px;
+}
+#logo span{
+    color:#FDD5A2
+}
+.developer-title{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    margin:1rem 0;
+}
+.apart-detail .container{
+    position: relative;
+}
+.content-apart .developer-home .developer-url{
+    text-decoration: none;
+    color:#2F373A;
+    font-weight: 500;
+}
+
+.content-apart section.apart-detail{
+    padding: 1rem;
+
+}
+.content-apart .apart-detail h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin:1rem 0;
+    font-weight: 400;
+}
+
+.apart-developer a{
+    color:#31393C!important;
+}
+.apart-developer{
+    padding: 0.5rem;
+    background: #F7F7F7;
+}
+.apart-developer h1{
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+.apart-developer h1 a{
+}
+.apart-developer-phone {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.apart_attr{
+
+}
+.apart_attr li{
+    text-align: center;
+}
+
+#features h2{
+    text-align: center;
+}
+#features .row{
+    align-items:center;
+}
+
+.apart-detail .mySlides{
+    margin-bottom: 1rem;
+}
+.apart-detail .row{
+    align-items:center;
+    justify-content: center;
+}
+.developers .pagination nav{
+    width:100%
+}
+.developers .pagination ul{
+    display: flex;
+    justify-content: center;
+    margin-top:1rem;
+    font-weight: 500;
+}
+.developers .pagination li{
+    display: inline-block;
+    padding: 1rem;
+    color:#373f42;
+}
+.developers .pagination li a {
+    color:#373f42!important;
+}
+.developer-url{
+    color:#2F373A!important;
+    font-weight: 500;
+}
+#copyright {
+    font-weight: 500;
+    padding: 1rem!important;
+}
+#copyright a{
+    color:#373f42!important;
+    font-weight: 500;
+}
+
+.currency-widget h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.currency-widget .currency-title{
+    font-weight: bold;
+}
+
+.developer-news li a{
+    color:#FFF;
+}
+.news-title h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.news-title small{
+    font-size:  1rem;
+    font-weight: 500;
+}
+
+.news-title {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem 0;
+}
+.news-item img{
+    margin-right: 1rem;
+}
+.news-item a{
+    color:#424A4D !important;
+}
