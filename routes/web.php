@@ -23,4 +23,4 @@ Route::get('/apart/{id}', [\App\Http\Controllers\ApartController::class, 'detail
 Route::get('/developer/{id}', [\App\Http\Controllers\DeveloperController::class, 'detail'])->name('developer');
 Route::get('/developers', [\App\Http\Controllers\DeveloperController::class, 'all'])->name('developers');
 Route::get('/all-news', [\App\Http\Controllers\NewsController::class, 'index'])->name('all-news');
-Route::get('/news{id}', [\App\Http\Controllers\NewsController::class, 'detail'])->name('news');
+Route::get('/news/{id}', [\App\Http\Controllers\NewsController::class, 'detail'])->name('news');

@@ -24,7 +24,7 @@ class LatestNews extends Component
     public function render(): View|Closure|string
     {
         $newsLatest = Cache::remember('latest-news', 3600, function () {
-            return News::latest()->take(4)->get();
+            return News::latest()->take(5)->get();
         });
 
         return view('components.latest-news', ['newsLatest' =>$newsLatest]);

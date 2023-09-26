@@ -13,6 +13,9 @@
                                             <h1>{{$newsItem->title}}  <small>({{ Carbon\Carbon::createFromFormat('Y-m-d', $newsItem->published_at)->format('d.m.Y') }})</small></h1></div>
 
                                         <div class="news-detail">
+                                            @if($newsItem->image)
+                                                <img class="w100" src="/storage/{{$newsItem->image}}" alt="">
+                                            @endif
                                             {!! $newsItem->content !!}
                                         </div>
                                     </section>

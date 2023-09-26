@@ -21,6 +21,9 @@ a, a:visited, a:hover{
     justify-content: space-evenly;
 }
 
+.w100{
+    max-width:100%;
+}
 .space-between{
     justify-content: space-between;
 }
